@@ -1,0 +1,846 @@
+{
+  "meta": {
+    "title": "Dongpirang Mural Village (동피랑 벽화마을) | Tongyeong, Gyeongsangnam-do · A Colorful Hillside Mural Village by the Sea",
+    "description": "The complete guide to Dongpirang Mural Village (동피랑 벽화마을): a seaside art village in Tongyeong, Gyeongsangnam-do, Korea. Since 2008 a community painting project by residents and artists has turned an ageing fishing hillside into an open-air gallery of murals, stairs and corners. Opening hours, how to get there, accessibility, photo spots and visitor reviews — all in one place."
+  },
+  "header": {
+    "siteName": "Dongpirang Mural Village",
+    "home": "Home",
+    "visit": "Visit",
+    "transport": "Getting There",
+    "lodging": "Stay",
+    "history": "History",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "map": "Map",
+    "backToHome": "Back to home"
+  },
+  "common": {
+    "changeLanguage": "Change language",
+    "toggleTheme": "Toggle theme"
+  },
+  "nonprofitBanner": {
+    "text": "This is an independent, non-profit guide compiled by travel enthusiasts to provide the most objective information about visiting Dongpirang Mural Village. It is free, and we are affiliated with no organization."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "text": "So that every traveler who visits Tongyeong does not miss this seaside art village brought back to life by residents and artists, we have gathered scattered official information into this guide — purely to give you the most authentic alleys, art and sea views."
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "region": "Gyeongsangnam-do",
+    "city": "Tongyeong",
+    "current": "Dongpirang Mural Village"
+  },
+  "stickyNav": {
+    "facts": "Quick Facts",
+    "etiquette": "Village Etiquette",
+    "route": "Half-Day Route",
+    "transport": "Getting There",
+    "lodging": "Stay",
+    "visit": "Visitor Tips",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Dongpirang Mural Village (동피랑 벽화마을)",
+    "subtitle": "From an ageing hillside village on the verge of being forgotten, to an open-air gallery facing the sea of Tongyeong. Climb the painted stairs and meet fairy-tale characters, carp, flowers and sea breeze on every wall and every step — a seaside art village revived by residents and artists together.",
+    "rating": "4.0 (7,767)",
+    "reviewCount": "7,767 reviews",
+    "hours": "Open 24 hours (public alleys)",
+    "openMaps": "View on Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/LsderVJqMpJYF4PM8",
+    "tags": ["Painted murals & stairs", "Sea view over Gangguan", "Free · Open village"],
+    "routeCta": {
+      "label": "Plan your route",
+      "href": "#transport"
+    },
+    "historyCta": {
+      "label": "Discover its story",
+      "href": "#history"
+    },
+    "quickFacts": [
+      { "icon": "🎨", "label": "Highlight", "value": "Mural alleys" },
+      { "icon": "🆓", "label": "Admission", "value": "Free" },
+      { "icon": "🕐", "label": "Hours", "value": "24 hours" }
+    ],
+    "navCta": { "label": "📍 Get directions", "href": "#transport" },
+    "photoCta": { "label": "📸 Best photo spots", "href": "#gallery" },
+    "liveInfo": { "weather": "Current weather", "sunset": "Tonight's sunset" }
+  },
+  "quickFactsDashboard": {
+    "title": "Dongpirang at a Glance",
+    "subtitle": "Key facts gathered in one place for quick reading and fast decisions.",
+    "items": [
+      { "icon": "📅", "label": "Art project since", "value": "2008", "note": "The 'Dongpirang Art Project' launched by residents and artists of Dongho-dong, Tongyeong, gradually turned the ageing hillside housing area into an open gallery." },
+      { "icon": "🪜", "label": "Terrain", "value": "Seaside slope", "note": "The village rises in tiers up a hillside; the painted stone stairs are its signature — consider the slope if you have a stroller or limited mobility." },
+      { "icon": "🆓", "label": "Admission", "value": "0 KRW", "note": "Public alleys, free and open long-term, no ticket or reservation — it is a real village where people live." },
+      { "icon": "🌅", "label": "Viewpoint", "value": "Over Gangguan", "note": "From the top you overlook Tongyeong's Gangguan Port (강구안) and its islands — one of the most photogenic corners of the village." }
+    ]
+  },
+  "hiddenRules": {
+    "title": "Safety Tips for the Alleys & Slopes",
+    "subtitle": "The hard part of Dongpirang is not finding the way, but remembering 'this is a real village where people live'. Think about residents, slopes and camera etiquette, and the experience upgrades from 'rushing check-ins' to 'strolling slowly'.",
+    "highlights": [
+      { "icon": "🪜", "label": "Stairs & slope", "value": "Steep, many steps", "note": "Built on a hillside, the painted stairs often have ups and downs; with kids, elders or heavy gear, slow down and rest in stages." },
+      { "icon": "🤫", "label": "Residents' lives", "value": "Real homes", "note": "Behind the walls are homes — keep your voice down, don't shout, and never open private doors or cut through backyards." },
+      { "icon": "⚠️", "label": "Narrow & peak", "value": "Crowds in peak", "note": "Popular corners are tiny; tour groups and photo crowds overlap and queue easily — go early or on weekdays for empty shots." }
+    ],
+    "panels": [
+      {
+        "q": "Do I have to climb to the very top? Is there an alternative?",
+        "a": "Not necessarily. The core murals cluster on the middle slope up from Gangguan; those with limited stamina can stroll the middle section slowly and keep the top for the view. The village entrance and Gangguan are flat and easiest to enter.",
+        "items": ["With a stroller or elders, enter gently from the Gangguan side — no need to force the summit.", "Some steep sections have handrails and rest platforms for staged climbing."]
+      },
+      {
+        "q": "Why avoid residents' lives when photographing?",
+        "a": "Because Dongpirang is still a lived-in village; behind the walls and doors is residents' daily life. Respecting privacy, lowering your voice and not touching items at doors is what lets it remain a shared open gallery long-term."
+      },
+      {
+        "q": "May I paint on the walls or place props?",
+        "a": "No. All murals are protected — please do not touch, lean, write or post on them, nor place private props; keeping the walls as they are is basic respect for creators and residents."
+      }
+    ]
+  },
+  "complianceGuide": {
+    "title": "Dongpirang · Visitor & Co-living Etiquette",
+    "subtitle": "This is both a visitor hotspot and residents' daily home. Following these rules is double respect for people and place.",
+    "rules": [
+      {
+        "badge": "🚫",
+        "title": "Don't touch or paint the murals",
+        "text": "All wall paintings are artworks — don't touch, lean, write or post on them; for a better angle, don't cross rails or step on planters.",
+        "items": ["Comply with signs reading 'No painting' or 'Do not touch'.", "Use drones only in permitted areas and times to avoid disturbing residents."]
+      },
+      {
+        "badge": "🗑️",
+        "title": "Take your trash with you",
+        "text": "Bins in the alleys are limited and the seaside wind scatters litter — bring a small bag and take everything away when you leave."
+      },
+      {
+        "badge": "🔇",
+        "title": "Quiet viewing",
+        "text": "Many come specifically for the calm walls and sea at dawn and dusk — lower your voice, no loud music, leave the quiet to the walls and the sea."
+      },
+      {
+        "badge": "🚭",
+        "title": "No smoking or open flame",
+        "text": "With dense wood structures and old houses, the whole area is smoke-free; no open flame to prevent fire reaching homes."
+      }
+    ]
+  },
+  "higashiyamaRoute": {
+    "title": "Tongyeong Half-Day Loop: Sea, Hills & Alleys",
+    "subtitle": "Not just 'who it suits', but a half-day route you can follow directly. Centered on Dongpirang, it also links Gangguan, the Central Market and the Tongyeong Cable Car.",
+    "steps": [
+      { "title": "[Start] Gangguan Port (강구안) — boat & overlook", "meta": "Tongyeong Bay · ~30–45 min", "text": "Gather supplies and use the restroom at Gangguan, and overlook the hillside where Dongpirang sits — the most stable, best-equipped gateway.", "tips": ["Gangguan is Tongyeong's signature harbor; by day read the terrain and arrange a sea cruise."] },
+      { "title": "[Main] Gangguan → climb Dongpirang", "meta": "Core experience · ~60–90 min", "text": "From the Gangguan side climb the painted stairs, strolling the mural alleys at your pace; save the warm afternoon-to-dusk light for walls and sea.", "tips": ["With a stroller or elders, enter from the gentle side — no need to force the summit."] },
+      { "title": "[Extend] Dongpirang top → sea view over Gangguan", "meta": "Viewpoint · ~30–45 min", "text": "From the top overlook Gangguan and the islands, then descend gently, linking 'mural — sea — hill town' into one line." },
+      { "title": "[Loop] Jungang Market (중앙시장) food & stroll", "meta": "Food break · ~40–50 min", "text": "After descending, head to Tongyeong Central Market for gimbap, seafood and local snacks, joining art with local flavors." },
+      { "title": "[End] Gangguan night view or return", "meta": "Wrap · ~60 min+", "text": "If time allows, return to Gangguan at dusk for the harbor night view, or take a bus/taxi back — a complete 'art + harbor + food' half-day package.", "tips": ["If alleys are crowded in peak, have dinner at the Central Market to avoid the rush."] }
+    ],
+    "disclaimer": "This route emphasizes a closed loop you can follow as-is; if you only want murals, keep the first two segments and treat the market and cable car as optional add-ons."
+  },
+  "intro": {
+    "title": "Getting to Know Dongpirang Mural Village",
+    "description": "Dongpirang Mural Village (동피랑 벽화마을) sits in Dongho-dong, Tongyeong-si, Gyeongsangnam-do, Korea — an art village facing the sea and rising in tiers up a hillside. '동피랑 (Dongpirang)' combines 'East (동)' with a local term for a steep hillside; it was once just an ageing fishing-residential area near Gangguan. From 2008, residents and artists launched the 'Dongpirang Art Project', painting faded walls, stairs and corners into fairy-tale scenes, turning a 'soon-forgotten slope village' into one of Tongyeong's most recognizable cultural landmarks. Even more, it preserves a narrative few villages display so openly: how art turned a declining old village back into a living room shared by residents and travelers.",
+    "visitGuide": {
+      "title": "Visitor Guide",
+      "eyebrow": "Practical Planning",
+      "description": "Dongpirang is a free, open public alley — no gate, no reservation. The ideal approach is usually not 'wander by day' but to plan backward from light and stamina: resupply and use the restroom at Gangguan first, then give the warm afternoon-to-dusk light to the walls and sea. Facilities are minimal and commercial feel is low — which is exactly its charm.",
+      "items": [
+        "Best is afternoon to dusk: west-facing walls catch the warmest light, and sea with murals frame best.",
+        "Best angles cluster on upper stairs and corners, capturing murals, alleys and the Gangguan sea view together.",
+        "From Gangguan (강구안) it's a 5–15 min walk uphill to enter the village via painted stairs.",
+        "Almost no commercial supply inside; water, restrooms and rest are better at Gangguan or the foot."
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Highlights",
+      "items": [
+        "A real lived-in village painted by residents and artists, not a made-up theme park",
+        "Painted stairs and corners rising up the slope — Tongyeong's most photogenic 'open-air gallery'",
+        "From the top, overlook Gangguan Port (강구안) and its islands",
+        "Free and open, highly public — a model case of 'art in community'"
+      ]
+    }
+  },
+  "transportSection": {
+    "title": "Transport & Getting There",
+    "subtitle": "A structured guide to reaching Tongyeong, city transfers, walking/cycling, parking and EV charging for Dongpirang.",
+    "overviewTitle": "After arriving in Tongyeong",
+    "overviewText": "Dongpirang is in Dongho-dong, Tongyeong-si, Gyeongsangnam-do, right next to Tongyeong's signature harbor — Gangguan (강구안). The easiest external link is an express/intercity bus from Seoul, Busan etc. directly to Tongyeong, or a transfer from Gimhae Airport (Busan). In the city, the village is only minutes from Gangguan on foot. Built on a seaside slope, from Gangguan you walk up painted stone stairs about 5–15 minutes to enter.",
+    "overviewText2": "Dongpirang is open alleys with no walls or gates. Plan transport, parking and the climb together — entering from the gentle side greatly reduces the climb, especially with elders, infants or luggage.",
+    "arrivalTitle": "Remember before you go",
+    "arrivalItems": [
+      "Dongpirang is on the north slope above Gangguan; from Gangguan a 5–15 min walk uphill enters the village.",
+      "No large dedicated lot in the village — use Gangguan public parking or nearby paid lots, then walk in.",
+      "Weekends and holidays get very crowded; narrow alleys jam — strongly prefer transit or off-peak."
+    ],
+    "modes": [
+      {
+        "label": "Plane (Busan / Seoul)",
+        "icon": "✈️",
+        "title": "Fly in, then bus to Tongyeong",
+        "description": "Common for overseas and domestic long-haul; Gimhae (Busan) is closest, Seoul airports widest network.",
+        "details": [
+          "Gimhae (PUS): ~1.5–2 h to Tongyeong; airport bus or taxi to the Tongyeong intercity terminal, then local transfer.",
+          "Seoul Incheon (ICN)/Gimpo (GMP): AREX or bus into Seoul, then Tongyeong express bus ~3.5–4 h.",
+          "In Tongyeong, walk or take a city bus to Gangguan (below)."
+        ],
+        "steps": [
+          { "n": "1", "t": "Fly to Gimhae (Busan) or a Seoul airport." },
+          { "n": "2", "t": "Airport bus/bus into the city, then Tongyeong express bus." },
+          { "n": "3", "t": "At Tongyeong go to Gangguan, walk uphill ~5–15 min to enter." }
+        ]
+      },
+      {
+        "label": "Train (to Busan / Masan, then bus)",
+        "icon": "🚆",
+        "title": "Transfer via Busan or Masan",
+        "description": "No direct KTX to Tongyeong; easiest is KTX to Busan Station or Masan, then Tongyeong intercity bus.",
+        "details": [
+          "KTX from Seoul to Busan Station, then Tongyeong intercity bus ~1.5–2 h.",
+          "Or short buses from Changwon/Masan to Tongyeong综合 terminal.",
+          "Use a T-money/transit card — buses accept tap payment."
+        ],
+        "steps": [
+          { "n": "1", "t": "Take KTX to Busan Station or to Masan area." },
+          { "n": "2", "t": "Transfer to a Tongyeong intercity bus to Tongyeong terminal." },
+          { "n": "3", "t": "At Gangguan walk uphill ~5–15 min to enter." }
+        ]
+      },
+      {
+        "label": "Public transit (express / intercity bus)",
+        "icon": "🚌",
+        "title": "Seoul etc. direct to Tongyeong",
+        "description": "Easiest for most travelers; Seoul, Busan and more have direct Tongyeong express/intercity buses.",
+        "details": [
+          "From Seoul Express Bus Terminal (Gangnam) or Dong-Seoul Terminal, 'Tongyeong' bus ~3.5–4 h.",
+          "At Tongyeong综合 terminal, city bus or taxi to Gangguan (강구안), then walk uphill.",
+          "Bus takes T-money; frequent — check live arrival in a maps app."
+        ],
+        "steps": [
+          { "n": "1", "t": "Take an express/intercity bus directly to Tongyeong terminal." },
+          { "n": "2", "t": "Transfer to a city bus or taxi to Gangguan." },
+          { "n": "3", "t": "From Gangguan walk up painted stairs ~5–15 min." }
+        ]
+      },
+      {
+        "label": "Car (parking / charging)",
+        "icon": "🅿️",
+        "title": "National expressways · nearby parking",
+        "description": "Good with kids/elders, lots of luggage, or touring Gyeongnam; no big dedicated lot in the village.",
+        "details": [
+          "Set destination to '동피랑 벽화마을' or '6-18 Dongpirang 1-gil, Dongho-dong, Tongyeong-si'.",
+          "Gangguan public parking has more spaces but fills on peak/weekends — arrive early.",
+          "Some public lots have EV chargers; seaside is windy — mind crosswinds when parking."
+        ],
+        "steps": [
+          { "n": "1", "t": "Navigate to 'Dongpirang Mural Village' or 'Gangguan public parking'." },
+          { "n": "2", "t": "Park in public/paid lot, walk into the village." },
+          { "n": "3", "t": "Avoid the 10:00–18:00 peak to save parking time." }
+        ]
+      },
+      {
+        "label": "Taxi / ride-hail",
+        "icon": "🚕",
+        "title": "Door-to-door",
+        "description": "Easiest with luggage, kids/elders, or early/late arrival.",
+        "details": [
+          "From Tongyeong terminal or city to Gangguan ~5–10 min, about KRW 4,000–8,000 (meter).",
+          "At Gangguan you climb the painted stairs on foot to enter.",
+          "Taxis also queue in peak/rainy days — leave buffer and book via a local app (e.g., Kakao T)."
+        ],
+        "steps": [
+          { "n": "1", "t": "Book via Kakao T at the station or hotel." },
+          { "n": "2", "t": "Tell the driver '동피랑 벽화마을' or Gangguan." },
+          { "n": "3", "t": "Drop off at Gangguan, walk up painted stairs to enter." }
+        ]
+      },
+      {
+        "label": "Bike / walk",
+        "icon": "🚲",
+        "title": "Harbor greenway & alley stroll",
+        "description": "The most relaxing way to feel Tongyeong's harbor and old town.",
+        "details": [
+          "Around Gangguan you can walk along the sea to the village foot, then up painted stairs.",
+          "Park bikes at the foot rack; don't ride into mural alleys or stairs.",
+          "From Gangguan to the foot ~5–15 min, seaside all the way."
+        ],
+        "steps": [
+          { "n": "1", "t": "Stroll the harbor around Gangguan or rent a public bike." },
+          { "n": "2", "t": "Walk toward the foot along the greenway." },
+          { "n": "3", "t": "Lock at the foot rack, walk up painted stairs to enter." }
+        ]
+      },
+      {
+        "label": "Walk (neighborhood roam)",
+        "icon": "🚶",
+        "title": "From Gangguan to the foot",
+        "description": "If you are around Tongyeong city or Gangguan, walking is the most natural way to see harbor-to-old-town transition.",
+        "details": [
+          "From Gangguan (강구안) follow signs ~5–15 min to the foot painted stairs.",
+          "Pass the harbor, old houses and snacks — stroll and explore.",
+          "Slopes have slight grades; wear comfy shoes and watch children."
+        ]
+      }
+    ],
+    "parking": {
+      "title": "Parking & Charging (driver reference)",
+      "note": "Dongpirang has no large dedicated lot. Below are the nearest main parking and charging options; rates and availability vary by season/time — see on-site signs.",
+      "colOption": "Option",
+      "colDistance": "Distance",
+      "colPrice": "Price",
+      "options": [
+        { "name": "Gangguan public parking", "distance": "~300–600 m (to foot)", "price": "Public rates lower, fills in peak" },
+        { "name": "Dongpirang foot temporary parking", "distance": "~100–300 m", "price": "Roadside/small lot, few spaces, easier off-peak" },
+        { "name": "Tongyeong Central Market area", "distance": "~800–1.2 km", "price": "Mall & market lots, tight on holidays" },
+        { "name": "Cable Car / visitor center parking", "distance": "~1.0–1.5 km", "price": "Visitor facilities, good if combining cable car" },
+        { "name": "Drop-off (Gangguan)", "distance": "~200 m", "price": "Brief stop only, no space" }
+      ],
+      "disclaimer": "Foot roads jam badly on holidays and during peak season — do not block bus/fire lanes for long. EV chargers are mostly at Gangguan public parking and some municipal lots; none dedicated in the village. Rates/limits may change — see posted signs."
+    },
+    "driverFaqTitle": "Driver FAQ",
+    "driverFaq": [
+      { "q": "Is there parking near Dongpirang?", "a": "No large dedicated lot in the village, but Gangguan public parking and the foot temporary lot are reachable on foot. They fill fast on weekends/peak — arrive early or park farther and transfer." },
+      { "q": "What is the nearest parking?", "a": "The foot temporary lot is ~100–300 m, the closest; Gangguan public parking is ~300–600 m with more spaces but tight in peak." },
+      { "q": "Is there roadside parking?", "a": "Very little. The foot roads are narrow and congested on holidays — do not park roadside for long; use proper lots and transit." },
+      { "q": "Is driving recommended?", "a": "Unless you need parking, better not. Weekends and peak season jam badly; walking or transit is smoother. If driving, park nearby and walk in." },
+      { "q": "Do you recommend public transit?", "a": "Strongly. Express/intercity bus to Tongyeong terminal, then city bus or taxi to Gangguan, walk uphill ~5–15 min to enter. Address: 6-18 Dongpirang 1-gil, Dongho-dong, Tongyeong-si, Gyeongsangnam-do, Korea." },
+      { "q": "What is the best route?", "a": "Best by transit: express/intercity bus to Tongyeong, transfer to Gangguan then walk uphill. Or drive and park nearby then transfer. Address: 6-18 Dongpirang 1-gil, Dongho-dong, Tongyeong-si, Gyeongsangnam-do, Korea." }
+    ],
+    "localTipsTitle": "Useful on-site tips",
+    "localTips": [
+      "Afternoon to dusk is still the golden window, but set 'arrive at the top 60 min before sunset' as the time base, not 'arrive at the foot'.",
+      "Weekends and school holidays get crowded; with kids or gear, leave extra buffer and avoid peaks.",
+      "Link Dongpirang with Gangguan, the Central Market and the Tongyeong Cable Car — a single stop undervalues its sea-hill narrative."
+    ],
+    "mapsCta": "View map & route",
+    "mapsUrl": "https://maps.app.goo.gl/LsderVJqMpJYF4PM8",
+    "bestTime": {
+      "title": "Best time to arrive",
+      "text": "Dongpirang is visitable any time, but the photo ceiling is set by the afternoon-to-dusk light window. Set your climb about 60 minutes before sunset; if the weather is bad for photos, shift focus to a Gangguan cruise, Central Market food or the Tongyeong Cable Car."
+    }
+  },
+  "officialManagement": {
+    "title": "About the Village",
+    "text": "Dongpirang Mural Village is an art village in Dongho-dong, Tongyeong-si, Gyeongsangnam-do, Korea, transformed from an ageing fishing-residential hillside and maintained by Tongyeong City together with local residents and artists as a community art space. Long a place where residents' lives, travelers' photos and sea views coexist, it is also one of Korea's representative cases of 'art in community' and 'local regeneration'."
+  },
+  "humanities": {
+    "title": "History & Art Intervention",
+    "subtitle": "Following the fishing-village past, the art project and on-site signs, we present the historical context of Dongpirang — why it is more than 'pretty walls'."
+  },
+  "knowledge": {
+    "title": "The History & Art of Dongpirang",
+    "sections": [
+      {
+        "id": "history",
+        "title": "The name & past: an old slope village by Gangguan",
+        "content": "'동피랑 (Dongpirang)' combines 'East (동, a direction)' with a local term for a steep hillside, originally referring to an ageing hillside residential area in Dongho-dong, Tongyeong, near Gangguan (강구안). Before becoming a painted village, it was an ordinary fishing corner beside boats and sea breeze; with population outflow and ageing houses, it once faced being forgotten."
+      },
+      {
+        "id": "joseon",
+        "title": "2007: a mural contest to 'color the hometown'",
+        "content": "In the early 2000s the local government planned to demolish this ageing hillside housing area to rebuild the military lookout 'Dongporu Pavilion (Dongporu)', established by Admiral Yi Sun-sin, and turn its surroundings into a park. To keep this living, warm community, in 2007 local citizen groups launched the 'Color Dongpirang — National Mural Contest'. Art students and painters from across the country responded, painting faded walls, stairs, fences and even water tanks with vivid fairy-tale scenes. This community action, where residents actively gave their outer walls to artists, turned art into a way to keep people and memory."
+      },
+      {
+        "id": "palgyeong",
+        "title": "Gangguan & Dongporu: the geographic base between sea and hill",
+        "content": "Dongpirang sits right next to Gangguan (강구안), Tongyeong's signature harbor, and at its highest point stands the rebuilt 'Dongporu Pavilion (Dongporu)' — a viewpoint overlooking the Tongyeong harbor and sunset, whose predecessor was a military lookout established by Admiral Yi Sun-sin in the Joseon era. Long a hub for fishing boats and shipping, Gangguan is now famous for night views, seafood and cruises. Dongpirang, Dongporu and Gangguan, one above the other, together form the visual and culinary center of Tongyeong's 'harbor old town'."
+      },
+      {
+        "id": "architecture",
+        "title": "Murals, stairs & corners: the language of art design",
+        "content": "Beyond fairy-tale characters and carp, the most-photographed elements are the painted stone stairs and corner walls rising up the slope. They are both wayfinding and turn 'the climb' into a small exhibition; the negative space between walls and the sea borrowed in views are all low-impact, high-empathy spatial design."
+      },
+      {
+        "id": "modern",
+        "title": "Why it is called a 'fairy-tale village'",
+        "content": "Chinese-speaking visitors often describe Dongpirang as a 'fairy-tale mural village facing the sea'. Its charm is not only that it looks good, but that a declining old village was revived by residents and artists — the color on the walls backs a whole narrative of local identity and community regeneration."
+      },
+      {
+        "id": "symbol",
+        "title": "From old village to public living room",
+        "content": "Today Dongpirang has become Tongyeong's shared art living room: people stroll at dawn, sketch in the afternoon, and at dusk it is a theater where photographers and travelers wait for the sea breeze to turn. It moves us not only because it became beautiful, but because Tongyeong kept a hard-to-see old slope village as a public lesson in community regeneration."
+      }
+    ],
+    "didYouKnow": {
+      "title": "Did you know?",
+      "text": "Dongpirang's legend is more than 'walls painted nicely'. More importantly, it is an ongoing community experiment: residents gave their outer walls to artists and turned daily alleys into a shared gallery, bringing a declining old village back as one of Tongyeong's most recognizable cultural landmarks."
+    }
+  },
+  "sitePlaques": {
+    "title": "Reading the On-site Signs",
+    "subtitle": "When you visit, what's worth slow reading is often not the check-in board, but the official signs explaining 'why this wall is here'.",
+    "intro": "The following readings are based on Tongyeong City's Dongpirang Art Project introduction, Gangguan landscape notes and mural creation guides — translating the on-site information you can see but may not read closely into understandable English.",
+    "items": [
+      {
+        "id": "monument",
+        "badge": "Art project sign",
+        "title": "Dongpirang Art Project & community regeneration",
+        "koTitle": "동피랑 벽화마을 조성",
+        "koTitleZh": "Dongpirang Mural Village creation",
+        "body": "Such signs usually give the key timeline: from an ageing slope-housing area near Gangguan, the 2008 resident-artist art project gradually painted it into an open gallery. They remind visitors the color was not 'lucky nature' but the result of local policy, art intervention and resident participation."
+      },
+      {
+        "id": "signboard",
+        "badge": "Gangguan landscape (KO/EN)",
+        "title": "Harbor, islands & sea ecology",
+        "koTitle": "강구안 · 바다 조망",
+        "koTitleZh": "Gangguan · sea view",
+        "body": "Landscape signs stress Gangguan's status as Tongyeong's representative harbor and remind visitors: half of Dongpirang's beauty is the painted walls, half is the real sea outside. Overlooking islands and returning boats from the top is the village's most underrated experience."
+      },
+      {
+        "id": "wooden",
+        "badge": "Mural creation guide",
+        "title": "Stairs, corners & fairy-tale characters",
+        "koTitle": "계단 · 벽화 · 캐릭터",
+        "koTitleZh": "Stairs · murals · characters",
+        "body": "The guide explains 'how to use the village without disturbing residents'. Painted stairs build the ritual of climbing, corner walls guide flow on safe paths, and fairy-tale characters carry warmth and identity — together the design logic of Dongpirang becomes clear."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "From painted stairs, fairy-tale corners and carp-flower walls to the sea view over Gangguan — see the visual beauty of Dongpirang Mural Village.",
+    "photoAlt": "Dongpirang Mural Village",
+    "photoAlts": [
+      "Sea-view wall over Gangguan",
+      "Painted stairs upward",
+      "Fairy-tale corner wall",
+      "Carp & flower mural",
+      "Blue ocean-style wall",
+      "Stairs with sky and sea",
+      "Old house meets new paint",
+      "Warm dusk alley",
+      "Gangguan overlook",
+      "Cartoon character mural",
+      "Vine & flower wall",
+      "Quiet early morning",
+      "Blue-white striped alley",
+      "Sunset and colored walls",
+      "Gull & fishing-boat motif",
+      "Panoramic top view",
+      "Heart & letter wall",
+      "Fishing-village memory mural",
+      "Warm-toned slope",
+      "Quiet snowy hill village"
+    ],
+    "viewAll": "View location on Google Maps",
+    "showMore": "Show more photos",
+    "mapsUrl": "https://maps.app.goo.gl/LsderVJqMpJYF4PM8"
+  },
+  "reviews": {
+    "title": "Visitor Reviews",
+    "declaration": "Visitor feedback is available on Google Maps (external link).",
+    "featuredTitle": "Visitor Quotes",
+    "featuredSubtitle": "A few short lines that capture the spirit of Dongpirang.",
+    "moreReviews": "View on Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/LsderVJqMpJYF4PM8",
+    "featured": [
+      {
+        "text": "Climbing the painted stairs, every wall is like an open picture book, and from the top you overlook all of Gangguan's sea — truly healing.",
+        "source": "Independent traveler · Seoul"
+      },
+      {
+        "text": "A fairy-tale mural village facing the sea, free and easy to stroll — Tongyeong's gentlest corner.",
+        "source": "Photographer · Gyeongsangnam-do"
+      },
+      {
+        "text": "With the kids we walked the gentle side slowly; the cartoon characters delighted them all the way, and the elders were fine too.",
+        "source": "Family · Busan"
+      }
+    ],
+    "items": [
+      {
+        "name": "Minjun",
+        "date": "May 2026",
+        "rating": 5,
+        "text": "Climbed in the afternoon; warm light on the colored walls was so photogenic, and at the top overlooking Gangguan the place went quiet — strongly recommend dusk, best light."
+      },
+      {
+        "name": "Seoyeon",
+        "date": "Apr 2026",
+        "rating": 5,
+        "text": "Compact alleys, great views; entering from the gentle side is family-friendly, but the top is windy so dress warm."
+      },
+      {
+        "name": "Jihun",
+        "date": "Mar 2026",
+        "rating": 4,
+        "text": "Worth it as a free art village; the stairs are a small workout — take the gentle side if not fit."
+      },
+      {
+        "name": "Ha-eun",
+        "date": "Feb 2026",
+        "rating": 5,
+        "text": "About 10 min walk from Gangguan; the harbor on the way is lovely for a half-day stroll."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "How to Get There",
+    "subtitle": "6-18 Dongpirang 1-gil, Dongho-dong, Tongyeong-si, Gyeongsangnam-do, Korea (Plus Code: H5Q5+6X)",
+    "openMaps": "Open in Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/LsderVJqMpJYF4PM8"
+  },
+  "footer": {
+    "siteName": "Dongpirang Mural Village",
+    "rights": "© 2026 Dongpirang Mural Village Guide — an independent non-profit attraction information project. All rights reserved.",
+    "mission": {
+      "title": "Our Mission",
+      "text": "So that every traveler who visits Tongyeong does not miss this seaside art village brought back to life by residents and artists, we have gathered scattered official information into this guide — purely to give you the most authentic alleys, art and sea views."
+    },
+    "legalLinksTitle": "Privacy & Terms",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "officialResourcesTitle": "Official & Reference Resources",
+    "mapsLabel": "Google Maps →",
+    "mapsUrl": "https://maps.app.goo.gl/LsderVJqMpJYF4PM8",
+    "officialLinksList": [
+      { "name": "Tongyeong City Hall", "url": "https://www.tongyeong.go.kr" },
+      { "name": "Tongyeong Culture & Tourism", "url": "https://www.tongyeong.go.kr/tour.web" },
+      { "name": "Gyeongsangnam-do Provincial Government", "url": "https://www.gyeongnam.go.kr" },
+      { "name": "Gyeongsangnam-do Tourism Guide", "url": "https://tour.gyeongnam.go.kr" },
+      { "name": "Korea Tourism Organization", "url": "https://korean.visitkorea.or.kr" }
+    ],
+    "disclaimer": "This website is an independent non-profit visitor information project. We are affiliated with no government agency or official organization."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: June 2026",
+    "sections": [
+      {
+        "heading": "1. Information Collection",
+        "content": "We generally do not actively collect users' personal identity information. Any information you provide via contact forms or email will be kept strictly confidential."
+      },
+      {
+        "heading": "2. Use of Information",
+        "content": "Information we collect is used only to provide, maintain and improve our services and to communicate with you. We will not sell or share your personal information with third parties for marketing purposes."
+      },
+      {
+        "heading": "3. Cookies & Tracking",
+        "content": "We use cookies and similar tracking technologies to record activity on the site and store certain information. You can instruct your browser to refuse all cookies or to alert you when a cookie is sent."
+      },
+      {
+        "heading": "4. Data Security",
+        "content": "Your data security matters to us. We take commercially reasonable measures to protect your personal data, though no internet transmission is 100% secure."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: June 2026",
+    "sections": [
+      {
+        "heading": "1. Acceptance of Terms",
+        "content": "By accessing and using this website, you agree to be bound by these terms. If you disagree with any part, do not use the service."
+      },
+      {
+        "heading": "2. Use of Service",
+        "content": "This website is an independent non-profit visitor information project. The information provided is for general informational purposes only. You agree to use the site responsibly and lawfully."
+      },
+      {
+        "heading": "3. Intellectual Property",
+        "content": "All content on this site, including text, images and logos, unless stated otherwise, is the property of the site owner. Unauthorized use, copying or distribution is prohibited."
+      },
+      {
+        "heading": "4. Limitation of Liability",
+        "content": "We are not liable for any direct, indirect, incidental or consequential damages arising from the use or inability to use this website or the information it contains."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "description": "Manage your cookie preferences.",
+    "essential": {
+      "title": "Strictly Necessary Cookies",
+      "description": "Required for basic site functionality.",
+      "badge": "Always active"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "Help us understand how visitors interact with the site."
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "description": "Used to track visitors across websites."
+    },
+    "save": "Save preferences",
+    "saved": "Preferences saved!"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Practical info about Dongpirang Mural Village's facilities, history and visit planning.",
+    "amenities": {
+      "title": "Nearby Facilities",
+      "items": [
+        { "icon": "🅿️", "label": "Parking", "value": "Gangguan public / foot lot" },
+        { "icon": "🚻", "label": "Restrooms", "value": "Gangguan & foot public" },
+        { "icon": "🔌", "label": "Fuel / EV charge", "value": "Chargers at Gangguan parking" },
+        { "icon": "♿", "label": "Accessibility", "value": "Gentle side stroller-friendly" }
+      ]
+    },
+    "categories": [
+      {
+        "id": "infra",
+        "title": "Transport & Infrastructure",
+        "items": [
+          {
+            "q": "Is there parking, and what are the rates?",
+            "a": "No large dedicated lot in the village, but Gangguan public parking (public rates) and the foot temporary lot are reachable, then walk in. Rates vary by season; they fill fast on weekends/peak, so arrive early or prefer transit."
+          },
+          {
+            "q": "Are wheelchairs or strollers allowed in the area?",
+            "a": "The core is a sloped stone-stair village; the classic climb is not friendly to wheelchairs/strollers. But you can enter the middle mural area from the gentle Gangguan side; some platforms and gentle slopes are pushable. Keep the summit goal as a view, not a forced climb."
+          },
+          {
+            "q": "Are there restrooms or food at the site?",
+            "a": "The alleys have almost no shops or food; the nearest water and public toilets are at Gangguan and the foot (~5–15 min walk back). Stock up before entering."
+          }
+        ]
+      },
+      {
+        "id": "geo",
+        "title": "History & Art",
+        "items": [
+          {
+            "q": "Why is it called 'Dongpirang', and does it relate to the fishing village?",
+            "a": "'동피랑 (Dongpirang)' combines 'East (동, a direction)' with a local term for a steep hillside, originally referring to an ageing slope-housing area in Dongho-dong near Gangguan. Its predecessor was an ordinary fishing corner beside boats and sea breeze — the name and the land together tell a regeneration story from old village to art village."
+          },
+          {
+            "q": "What is special about its art and local value?",
+            "a": "Dongpirang is not a made-up theme park but a community action where residents gave their outer walls to artists and turned daily alleys into a shared gallery. Stairs, corners and fairy-tale characters form a low-impact, high-empathy spatial design, and a representative Korean case of 'art in community' and 'local regeneration'."
+          }
+        ]
+      },
+      {
+        "id": "plan",
+        "title": "Planning & Tickets",
+        "items": [
+          {
+            "q": "Is there an admission ticket?",
+            "a": "Dongpirang is open public alleys, free long-term and accessible 24 hours — no gate, no ticket, no reservation (respect residents' routines; avoid loud late nights)."
+          },
+          {
+            "q": "How long does a visit take?",
+            "a": "A typical slow stroll takes about 1–2 hours (climb plus photo stops); allow half a day if adding Gangguan, the Central Market and the Tongyeong Cable Car."
+          },
+          {
+            "q": "Can I still go in bad weather?",
+            "a": "Yes — it is open alleys, visitable in any weather. But slopes are slippery in rain, and visibility drops in typhoons or snow; wear grippy shoes and watch the weather. Avoid the top and seaside stairs in thunderstorms and high wind."
+          }
+        ]
+      },
+      {
+        "id": "nearby",
+        "title": "Nearby Area",
+        "items": [
+          {
+            "q": "After visiting, what other attractions are worth it?",
+            "a": "From Dongpirang you can link Gangguan (강구안, cruises & night view), Tongyeong Central Market (local food), the Tongyeong Cable Car (harbor & islands), the Hallyeohaesang National Park and Hansan Island (Admiral Yi Sun-sin history) — a Tongyeong 'art–harbor–food–history' half-day line."
+          }
+        ]
+      }
+    ]
+  },
+  "recommendations": {
+    "title": "Explore More of Tongyeong",
+    "attractionsTitle": "Nearby Attractions",
+    "toursTitle": "Recommended Experiences",
+    "attractions": [
+      { "name": "Gangguan Port", "url": "https://www.tongyeong.go.kr/tour.web" },
+      { "name": "Tongyeong Central Market", "url": "https://www.tongyeong.go.kr/tour.web" },
+      { "name": "Tongyeong Cable Car", "url": "https://tour.gyeongnam.go.kr" },
+      { "name": "Hallyeohaesang NP / Hansan Island", "url": "https://korean.visitkorea.or.kr" },
+      { "name": "Yi Sun-sin Park / Chungnyeolsa", "url": "https://www.tongyeong.go.kr/tour.web" }
+    ],
+    "tours": [
+      { "name": "Tongyeong Culture & Tourism", "url": "https://www.tongyeong.go.kr/tour.web" },
+      { "name": "Gyeongsangnam-do Tourism", "url": "https://tour.gyeongnam.go.kr" },
+      { "name": "Korea Tourism Organization (VisitKorea)", "url": "https://korean.visitkorea.or.kr" }
+    ]
+  },
+  "scienceArt": {
+    "title": "Mural Art & Community Regeneration: Walls, Stairs & Sea",
+    "subtitle": "Dig one layer below the surface 'pretty' and you find what is truly rare here: it is at once an art site, a community design, and an open-air classroom.",
+    "scienceMuseum": {
+      "name": "A model of community regeneration",
+      "role": "An art site built on an old village",
+      "highlight": "Dongpirang's hardest part is both visible and invisible. Visible are the fairy-tale walls and carp; invisible is the community mechanism where residents gave their outer walls to artists and turned daily alleys into a shared gallery. Visitors see color; planners see a local regeneration system still running.",
+      "points": [
+        "Core: resident participation, art intervention and local identity relit the old village.",
+        "Key: public alleys transformed into low-impact, high-empathy space.",
+        "Meaning: it upgrades 'local decline' into an observable community-regeneration model."
+      ],
+      "ctaLabel": "See Tongyeong Tourism ↗",
+      "ctaUrl": "https://www.tongyeong.go.kr/tour.web"
+    },
+    "artMuseum": {
+      "name": "Fairy-tale murals & harbor imagery",
+      "role": "A cultural symbol of Tongyeong's regeneration",
+      "highlight": "The cartoon characters, carp and flowers are not mere backdrops; like the painted stairs and seaside corners, they form Dongpirang's identity system: instantly reading as hillside, sea, and a gentle, restrained art aesthetic. From old village to fairy-tale mural plateau, this contrast makes it one of Tongyeong's most memorable cultural images.",
+      "points": [
+        "Imagery: fairy-tale characters, carp, sea and stairs form strong recognition.",
+        "Status: Tongyeong's most photogenic art village.",
+        "Narrative: it translates community regeneration into a publicly felt aesthetic experience."
+      ],
+      "ctaLabel": "See Gyeongnam Tourism ↗",
+      "ctaUrl": "https://tour.gyeongnam.go.kr"
+    }
+  },
+  "outdoorMuseum": {
+    "title": "Photo & Shooting Guide: Dongpirang Spots",
+    "subtitle": "As Tongyeong's most recognizable art landmark, a few structured spots and times greatly boost your photos' usefulness and beauty.",
+    "items": [
+      {
+        "id": "stairs",
+        "icon": "🪜",
+        "name": "Painted stairs · climb ritual",
+        "location": "Main stairs up from Gangguan",
+        "background": "Climb in the afternoon to dusk; use the painted stairs as foreground and sky-sea as extension — Dongpirang's classic 'enter-the-village' composition.",
+        "points": [
+          "Use the painted stairs as a lead-in line toward the top and sea.",
+          "Crouch low to layer walls and sea for a steadier frame."
+        ],
+        "badge": { "value": "Afternoon", "label": "Most shots" }
+      },
+      {
+        "id": "corner",
+        "icon": "🎨",
+        "name": "Fairy-tale corner wall",
+        "location": "Middle-section corner walls",
+        "background": "Fairy-tale characters and carp cluster on middle corners; backlight or sidelight makes characters glow; frontlight captures the whole wall's texture.",
+        "points": [
+          "Side light in the morning gives the softest character texture.",
+          "Mind the stairs; don't step into residents' private space for a frame."
+        ],
+        "badge": { "value": "All day", "label": "Most friendly" }
+      },
+      {
+        "id": "sea",
+        "icon": "🌅",
+        "name": "Top sea-view deck",
+        "location": "Upper area facing Gangguan",
+        "background": "After sunset the blue moment (20–30 min after) balances sky and sea — the most atmospheric window.",
+        "points": [
+          "Shoot in the blue moment for balanced sky and sea color.",
+          "Silhouette the colored wall, leaving a large warm sea view."
+        ],
+        "badge": { "value": "Dusk", "label": "Most mood" }
+      },
+      {
+        "id": "alley",
+        "icon": "🪵",
+        "name": "Narrow alley & flower wall",
+        "location": "Blue-white striped alley",
+        "background": "Look back from the foot at the painted alleys, or include harbor and sea in a wider frame — good for a closing wide shot.",
+        "points": [
+          "Use the alley as a lead-in line toward the sea.",
+          "Morning mist gives best layers; small aperture for full panorama."
+        ],
+        "badge": { "value": "Morning", "label": "Best layers" }
+      }
+    ]
+  },
+  "education": {
+    "title": "Why is it a great sample of community regeneration?",
+    "subtitle": "What Dongpirang teaches best is not 'it became pretty', but how it brought declining land back into public life while keeping the memory of the past.",
+    "points": [
+      {
+        "title": "Land still used by residents",
+        "text": "Dongpirang is not a 'hide the old village and done' case, but a sample where community participation continuously activates the place and turns it into shared space.",
+        "items": [
+          "Residents gave outer walls to artists and co-maintain.",
+          "Governance of public alleys and private space coexists long-term."
+        ]
+      },
+      {
+        "title": "Community ethics written into visitor behavior",
+        "text": "Painted stairs, corner flow and sign systems are not just guides but let every visitor, while using the space, respect residents and place.",
+        "items": [
+          "Visitors are guided to stay on low-impact paths.",
+          "Art experience and residents' lives do not sacrifice each other."
+        ]
+      },
+      {
+        "title": "Old-village memory into public aesthetics",
+        "text": "Dongpirang did not erase the fishing-village and old-slope past, but through walls and signs lets the public realize what the land went through while enjoying the art.",
+        "items": [
+          "Story depth and art experience complete in one place.",
+          "This is exactly the value a non-profit science site should amplify."
+        ]
+      }
+    ]
+  },
+  "audience": {
+    "title": "Who Finds Resonance Here? (Audience Guide)",
+    "subtitle": "Different visitors each find their best 'way in'.",
+    "items": [
+      {
+        "icon": "👨‍👩‍👧",
+        "group": "Families",
+        "resonance": "Free, open and safe art village; kids see fairy-tale characters and the sea, and climb gently from the easy side.",
+        "tip": "Take the climb up; combine Gangguan lawn and Central Market food — adjust order by stamina."
+      },
+      {
+        "icon": "📷",
+        "group": "Photographers & couples",
+        "resonance": "Afternoon-to-dusk colored walls and sea are Tongyeong's most romantic frames, with high shot rates.",
+        "tip": "Secure the top 60 min before sunset; shoot blue moment for both lights and sky color."
+      },
+      {
+        "icon": "🌿",
+        "group": "Art & local lovers",
+        "resonance": "As an art sample of community regeneration, wall creation and resident participation are worth a close look.",
+        "tip": "Avoid the most crowded weekends; choose early morning or weekday afternoon to observe art details."
+      },
+      {
+        "icon": "🗺️",
+        "group": "First-time visitors to Korea",
+        "resonance": "No need to go far — observe harbor old town and art village right in Tongyeong; also link buses, cable car and local food — the ideal start to understand Tongyeong's urban transition.",
+        "tip": "If you can only pick one Tongyeong art landmark, Dongpirang is the best first stop for the 'community regeneration' theme."
+      }
+    ]
+  },
+  "lodging": {
+    "title": "Stay Guide: Near the Village, or Convenient?",
+    "subtitle": "Tongyeong is a harbor city 'where sea meets town'. We do not recommend specific hotels, but help you read two lodging patterns to choose what fits you.",
+    "scenarioTitle": "Two choices — how to choose",
+    "options": [
+      {
+        "icon": "🏙️",
+        "name": "Gangguan / city center",
+        "role": "Best for transit & food",
+        "highlight": "Stay at Gangguan or central Tongyeong and Dongpirang, the Central Market and harbor night view are walkable; the night street seafood and snacks suit travelers best. Best for those focused on 'art roam + harbor old town' with high convenience.",
+        "points": [
+          "To Dongpirang ~5–15 min walk, least effort.",
+          "Dining, shopping and nightlife extremely rich.",
+          "More choices, usually better value."
+        ]
+      },
+      {
+        "icon": "🌉",
+        "name": "Tongyeong Bay / cable-car area",
+        "role": "Quiet sea views, family-friendly",
+        "highlight": "Stay along Tongyeong Bay by the sea; morning harbor strolls and returning boats, then walk or cable car to Dongpirang. Best for those focused on 'sea, night view, slow travel'.",
+        "points": [
+          "Harbor and bike paths at your door, good for mornings and families.",
+          "Quieter than the center, good for rest.",
+          "To Dongpirang ~10–20 min walk."
+        ]
+      }
+    ],
+    "peakTitle": "Peak-season warning",
+    "peak": "In Tongyeong's spring/autumn peak and holidays (especially summer, Labour Day and Chuseok), rooms tighten as tourists flood in and prices rise clearly. Book weeks ahead; if booking near a holiday, widen the search to Changwon, Jinju and other areas, then take the bus back.",
+    "tipsTitle": "Practical lodging tips",
+    "tips": [
+      "For night views: prefer Gangguan waterfront, sea views morning and dusk.",
+      "For convenience and food: choose Gangguan/center, transit and dining at hand.",
+      "Before booking, confirm breakfast, parking and EV chargers (key for drivers).",
+      "In peak season and holidays plan ahead to avoid no-room or high prices."
+    ]
+  }
+}
