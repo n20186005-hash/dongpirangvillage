@@ -12,7 +12,7 @@ const items = q.items ?? [];
       <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{q.subtitle}</p>
     </div>
 
-    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {items.map((it) => (
         <div class="rounded-3xl p-6 border h-full overflow-hidden relative" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
           <div class="absolute inset-x-0 top-0 h-1" style="background: color-mix(in srgb, var(--accent) 50%, transparent);"></div>

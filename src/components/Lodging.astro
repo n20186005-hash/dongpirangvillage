@@ -26,6 +26,11 @@ const options = l.options ?? [];
             </div>
           </div>
           <p class="text-base leading-relaxed mb-5" style="color: var(--text-secondary);">{v.highlight}</p>
+          {v.commute && (
+            <p class="text-sm leading-relaxed mb-5 px-4 py-3 rounded-xl border-l-4" style="background: color-mix(in srgb, var(--accent) 9%, transparent); border-color: var(--accent); color: var(--text-secondary);">
+              {v.commute}
+            </p>
+          )}
           <ul class="space-y-3 text-sm mt-auto" style="color: var(--text-secondary);">
             {v.points.map((point) => (
               <li class="flex gap-3"><span style="color: var(--accent);">✦</span><span>{point}</span></li>

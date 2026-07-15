@@ -16,13 +16,19 @@ const { embedded = false } = Astro.props;
 
     <div class="space-y-6">
       {items.map((it) => (
-        <article class="rounded-2xl p-6 sm:p-8 border" style="background: var(--bg-primary); border-color: var(--border-color);">
+        <article class="rounded-2xl p-6 sm:p-8 border relative overflow-hidden" style="background: var(--bg-primary); border-color: var(--border-color);">
+          <span class="absolute top-2.5 right-3 text-[10px] tracking-[0.22em] uppercase opacity-30" aria-hidden="true">PLAQUE</span>
           <div class="flex flex-wrap items-center gap-3 mb-4">
             <span class="inline-block text-xs font-semibold px-3 py-1 rounded-full" style="background: var(--accent); color: #fff;">{it.badge}</span>
             <h4 class="font-semibold text-xl" style="color: var(--text-primary);">{it.title}</h4>
           </div>
-          <p class="text-sm font-medium mb-3" style="color: var(--accent);">{it.koTitle}</p>
+          <p class="text-sm font-medium mb-1" style="color: var(--accent);">{it.koTitle}</p>
           <p class="text-sm mb-4" style="color: var(--text-tertiary);">{it.koTitleZh}</p>
+          {it.location && (
+            <p class="inline-flex items-center gap-1.5 text-xs mb-4 px-3 py-1.5 rounded-full" style="background: color-mix(in srgb, var(--accent) 12%, transparent); color: var(--text-secondary);">
+              📍 <span><span class="opacity-60">现场位置 · </span>{it.location}</span>
+            </p>
+          )}
           <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{it.body}</p>
         </article>
       ))}
@@ -38,17 +44,23 @@ const { embedded = false } = Astro.props;
       </div>
 
       <div class="space-y-6">
-        {items.map((it) => (
-          <article class="rounded-2xl p-6 sm:p-8 border" style="background: var(--bg-primary); border-color: var(--border-color);">
-            <div class="flex flex-wrap items-center gap-3 mb-4">
-              <span class="inline-block text-xs font-semibold px-3 py-1 rounded-full" style="background: var(--accent); color: #fff;">{it.badge}</span>
-              <h3 class="font-semibold text-xl" style="color: var(--text-primary);">{it.title}</h3>
-            </div>
-            <p class="text-sm font-medium mb-3" style="color: var(--accent);">{it.koTitle}</p>
-            <p class="text-sm mb-4" style="color: var(--text-tertiary);">{it.koTitleZh}</p>
-            <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{it.body}</p>
-          </article>
-        ))}
+      {items.map((it) => (
+        <article class="rounded-2xl p-6 sm:p-8 border relative overflow-hidden" style="background: var(--bg-primary); border-color: var(--border-color);">
+          <span class="absolute top-2.5 right-3 text-[10px] tracking-[0.22em] uppercase opacity-30" aria-hidden="true">PLAQUE</span>
+          <div class="flex flex-wrap items-center gap-3 mb-4">
+            <span class="inline-block text-xs font-semibold px-3 py-1 rounded-full" style="background: var(--accent); color: #fff;">{it.badge}</span>
+            <h3 class="font-semibold text-xl" style="color: var(--text-primary);">{it.title}</h3>
+          </div>
+          <p class="text-sm font-medium mb-1" style="color: var(--accent);">{it.koTitle}</p>
+          <p class="text-sm mb-4" style="color: var(--text-tertiary);">{it.koTitleZh}</p>
+          {it.location && (
+            <p class="inline-flex items-center gap-1.5 text-xs mb-4 px-3 py-1.5 rounded-full" style="background: color-mix(in srgb, var(--accent) 12%, transparent); color: var(--text-secondary);">
+              📍 <span><span class="opacity-60">现场位置 · </span>{it.location}</span>
+            </p>
+          )}
+          <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{it.body}</p>
+        </article>
+      ))}
       </div>
     </div>
   </section>
