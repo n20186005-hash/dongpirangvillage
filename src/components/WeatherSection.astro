@@ -1,0 +1,245 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const w = messages.weather;
+const weatherI18n = JSON.stringify(w);
+---
+
+<section id="weather" class="section-padding" style="background: var(--bg-secondary);">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center mb-10">
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">{w.title}</h2>
+      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{w.subtitle}</p>
+    </div>
+
+    <div class="grid lg:grid-cols-[1.1fr_0.9fr] gap-6">
+      <!-- Current conditions -->
+      <div class="rounded-3xl p-6 md:p-8 border" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+        <div class="flex items-center justify-between mb-5">
+          <h3 class="font-semibold text-xl" style="color: var(--text-primary);">{w.now}</h3>
+          <span id="weather-updated" class="text-xs" style="color: var(--text-muted);"></span>
+        </div>
+
+        <div id="weather-current" class="flex items-center gap-5">
+          <div id="weather-emoji" class="text-6xl leading-none" aria-hidden="true">🌤️</div>
+          <div>
+            <p id="weather-temp" class="font-display text-4xl font-semibold" style="color: var(--text-primary);">—</p>
+            <p id="weather-label" class="text-sm" style="color: var(--text-secondary);">{w.loading}</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-6">
+          <div class="rounded-2xl p-3 text-center" style="background: var(--bg-tertiary);">
+            <p class="text-xs mb-1" style="color: var(--text-muted);">{w.feelsLike}</p>
+            <p id="weather-feels" class="font-semibold" style="color: var(--text-primary);">—</p>
+          </div>
+          <div class="rounded-2xl p-3 text-center" style="background: var(--bg-tertiary);">
+            <p class="text-xs mb-1" style="color: var(--text-muted);">{w.wind}</p>
+            <p id="weather-wind" class="font-semibold" style="color: var(--text-primary);">—</p>
+          </div>
+          <div class="rounded-2xl p-3 text-center" style="background: var(--bg-tertiary);">
+            <p class="text-xs mb-1" style="color: var(--text-muted);">{w.humidity}</p>
+            <p id="weather-humidity" class="font-semibold" style="color: var(--text-primary);">—</p>
+          </div>
+          <div class="rounded-2xl p-3 text-center" style="background: var(--bg-tertiary);">
+            <p class="text-xs mb-1" style="color: var(--text-muted);">{w.precip}</p>
+            <p id="weather-precip" class="font-semibold" style="color: var(--text-primary);">—</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Advice: dynamic, visitor-action-oriented -->
+      <div class="rounded-3xl p-6 md:p-8 border flex flex-col" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+        <h3 class="font-semibold text-xl mb-4" style="color: var(--text-primary);">{w.adviceTitle}</h3>
+
+        <div id="risk-banner" class="hidden mb-4 rounded-2xl p-4 text-sm" style="background: color-mix(in srgb, #dc2626 13%, transparent); color: var(--text-primary); border: 1px solid color-mix(in srgb, #dc2626 35%, transparent);">
+          <div class="flex items-center gap-2 mb-2 font-semibold"><span aria-hidden="true">⚠️</span><span>{w.riskTitle}</span></div>
+          <ul id="advice-risk" class="space-y-1 list-none m-0 p-0"></ul>
+        </div>
+
+        <div class="grid sm:grid-cols-3 gap-4">
+          <div id="block-outfit" class="hidden">
+            <h4 class="font-semibold mb-2 text-sm" style="color: var(--text-primary);">{w.outfitTitle}</h4>
+            <ul id="advice-outfit" class="space-y-2 text-sm m-0 p-0" style="color: var(--text-secondary);"></ul>
+          </div>
+          <div id="block-plan" class="hidden">
+            <h4 class="font-semibold mb-2 text-sm" style="color: var(--text-primary);">{w.planTitle}</h4>
+            <ul id="advice-plan" class="space-y-2 text-sm m-0 p-0" style="color: var(--text-secondary);"></ul>
+          </div>
+          <div id="block-items" class="hidden">
+            <h4 class="font-semibold mb-2 text-sm" style="color: var(--text-primary);">{w.itemsTitle}</h4>
+            <ul id="advice-items" class="space-y-2 text-sm m-0 p-0" style="color: var(--text-secondary);"></ul>
+          </div>
+        </div>
+
+        <p class="text-xs mt-5 pt-4 border-t" style="color: var(--text-muted); border-color: var(--border-color);">{w.note}</p>
+      </div>
+    </div>
+
+    <!-- 7-day forecast -->
+    <div class="mt-6 rounded-3xl p-6 md:p-8 border" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+      <h3 class="font-semibold text-xl mb-5" style="color: var(--text-primary);">{w.forecastTitle}</h3>
+      <div id="weather-forecast" class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-3">
+        <p class="col-span-full text-sm" style="color: var(--text-muted);">{w.loading}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script type="application/json" id="weather-i18n" set:html={weatherI18n}></script>
+
+<script>
+  import { wmoToEmoji, wmoToKey, buildAdvice } from '../lib/weather';
+
+  (function () {
+    var el = document.getElementById('weather-i18n');
+    if (!el) return;
+    var dict = JSON.parse(el.textContent || '{}');
+    var L = dict.wmoLabels || {};
+    var API =
+      'https://api.open-meteo.com/v1/forecast?latitude=34.8483&longitude=128.4319' +
+      '&current=temperature_2m,relative_humidity_2m,apparent_temperature,weather_code,wind_speed_10m,precipitation_probability' +
+      '&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,uv_index_max,wind_speed_10m_max' +
+      '&timezone=Asia%2FSeoul&forecast_days=7&wind_speed_unit=kmh';
+
+    var CACHE_KEY = 'dongpirang-weather-v1';
+    var CACHE_TTL = 30 * 60 * 1000;
+
+    function $(id) { return document.getElementById(id); }
+
+    function fillList(ul, arr, icon) {
+      ul.innerHTML = '';
+      arr.forEach(function (text) {
+        var li = document.createElement('li');
+        li.className = 'flex gap-2 items-start';
+        var s1 = document.createElement('span');
+        s1.setAttribute('aria-hidden', 'true');
+        s1.textContent = icon;
+        var s2 = document.createElement('span');
+        s2.textContent = text;
+        li.appendChild(s1);
+        li.appendChild(s2);
+        ul.appendChild(li);
+      });
+    }
+
+    function renderCurrent(d) {
+      var cur = d.current;
+      var code = cur.weather_code;
+      $('weather-emoji').textContent = wmoToEmoji(code);
+      $('weather-temp').textContent = Math.round(cur.temperature_2m) + '°C';
+      $('weather-label').textContent = L[wmoToKey(code)] || '';
+      $('weather-feels').textContent = Math.round(cur.apparent_temperature) + '°C';
+      $('weather-wind').textContent = Math.round(cur.wind_speed_10m) + ' km/h';
+      $('weather-humidity').textContent = Math.round(cur.relative_humidity_2m) + '%';
+      $('weather-precip').textContent = (cur.precipitation_probability != null ? cur.precipitation_probability : 0) + '%';
+
+      try {
+        var t = new Date();
+        $('weather-updated').textContent = t.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+      } catch (e) {}
+    }
+
+    function renderAdvice(d) {
+      var dv = d.daily;
+      var input = {
+        code: dv.weather_code[0],
+        tempMax: dv.temperature_2m_max[0],
+        tempMin: dv.temperature_2m_min[0],
+        windMaxKmh: dv.wind_speed_10m_max ? dv.wind_speed_10m_max[0] : d.current.wind_speed_10m,
+        uv: dv.uv_index_max ? dv.uv_index_max[0] : 0,
+        precipProb: dv.precipitation_probability_max ? dv.precipitation_probability_max[0] : (d.current.precipitation_probability || 0)
+      };
+
+      var keys = buildAdvice(input);
+      var A = dict.advice || {};
+      var outfit = [], plan = [], items = [], risks = [];
+      keys.forEach(function (k) {
+        var a = A[k];
+        if (!a) return;
+        if (a.outfit) outfit.push(a.outfit);
+        if (a.plan) plan.push(a.plan);
+        if (a.items) items.push(a.items);
+        if (a.risk) risks.push(a.risk);
+      });
+
+      fillList($('advice-outfit'), outfit, '✅');
+      $('block-outfit').classList.toggle('hidden', outfit.length === 0);
+      fillList($('advice-plan'), plan, '✅');
+      $('block-plan').classList.toggle('hidden', plan.length === 0);
+      fillList($('advice-items'), items, '🎒');
+      $('block-items').classList.toggle('hidden', items.length === 0);
+
+      var rb = $('risk-banner');
+      if (risks.length) {
+        rb.classList.remove('hidden');
+        fillList($('advice-risk'), risks, '⚠️');
+      } else {
+        rb.classList.add('hidden');
+      }
+    }
+
+    function renderForecast(d) {
+      var daily = d.daily;
+      var box = $('weather-forecast');
+      box.innerHTML = '';
+      for (var i = 0; i < daily.time.length; i++) {
+        var date = new Date(daily.time[i] + 'T00:00');
+        var wd = date.toLocaleDateString([], { weekday: 'short' });
+        var label = i === 0 ? dict.today || wd : wd;
+        var card = document.createElement('div');
+        card.className = 'rounded-2xl p-3 text-center border';
+        card.style.background = 'var(--bg-tertiary)';
+        card.style.borderColor = 'var(--border-color)';
+        card.innerHTML =
+          '<p class="text-xs mb-2" style="color: var(--text-muted);"></p>' +
+          '<div class="text-3xl mb-1" aria-hidden="true">' + wmoToEmoji(daily.weather_code[i]) + '</div>' +
+          '<p class="font-semibold" style="color: var(--text-primary);"></p>' +
+          '<p class="text-xs mt-1" style="color: var(--text-secondary);"></p>';
+        var nodes = card.childNodes;
+        nodes[0].textContent = label;
+        nodes[2].textContent = Math.round(daily.temperature_2m_min[i]) + '° / ' + Math.round(daily.temperature_2m_max[i]) + '°';
+        nodes[3].textContent = (daily.precipitation_probability_max[i] != null ? daily.precipitation_probability_max[i] : 0) + '%';
+        box.appendChild(card);
+      }
+    }
+
+    function showError() {
+      $('weather-label').textContent = dict.error || '';
+      $('block-outfit').classList.add('hidden');
+      $('block-plan').classList.add('hidden');
+      $('block-items').classList.add('hidden');
+      $('risk-banner').classList.add('hidden');
+      $('weather-forecast').innerHTML = '<p class="col-span-full text-sm" style="color: var(--text-muted);">' + (dict.error || '') + '</p>';
+    }
+
+    function apply(data) {
+      renderCurrent(data);
+      renderAdvice(data);
+      renderForecast(data);
+    }
+
+    function load() {
+      try {
+        var cached = sessionStorage.getItem(CACHE_KEY);
+        if (cached) {
+          var parsed = JSON.parse(cached);
+          if (Date.now() - parsed.t < CACHE_TTL) {
+            apply(parsed.d);
+            return;
+          }
+        }
+      } catch (e) {}
+
+      fetch(API, { cache: 'no-store' })
+        .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .then(function (data) {
+          apply(data);
+          try { sessionStorage.setItem(CACHE_KEY, JSON.stringify({ t: Date.now(), d: data })); } catch (e) {}
+        })
+        .catch(function () { showError(); });
+    }
+
+    load();
+  })();
+</script>

@@ -1,0 +1,43 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const s = messages.seasonalStrategy;
+const rows = s.rows ?? [];
+---
+
+<section id="season" class="section-padding" style="background: var(--bg-secondary);">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center mb-10">
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">{s.title}</h2>
+      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{s.subtitle}</p>
+    </div>
+
+    <div class="rounded-2xl p-4 mb-8 border text-sm" style="background: var(--bg-tertiary); border-color: var(--border-color); color: var(--text-secondary);">
+      {s.note}
+    </div>
+
+    <div class="rounded-2xl border overflow-hidden" style="border-color: var(--border-color);">
+      <div class="overflow-x-auto -mx-2 px-2">
+        <table class="w-full text-sm border-collapse" style="color: var(--text-secondary);">
+          <thead>
+            <tr style="border-bottom: 1px solid var(--border-color);">
+              {s.cols.map((c) => (
+                <th class="text-left py-3 px-4 font-semibold whitespace-nowrap" style="color: var(--text-primary);">{c}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((row) => (
+              <tr style="border-bottom: 1px solid var(--border-color);">
+                <td class="py-3 px-4 font-semibold whitespace-nowrap" style="color: var(--text-primary);">{row.season}</td>
+                <td class="py-3 px-4">{row.weather}</td>
+                <td class="py-3 px-4">{row.best}</td>
+                <td class="py-3 px-4">{row.watch}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>

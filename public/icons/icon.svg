@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Dongpirang Mural Village">
+  <rect width="512" height="512" rx="96" fill="#0f2015"/>
+  <g>
+    <circle cx="360" cy="150" r="52" fill="#f4d58a"/>
+    <path d="M60 360 q60 -40 120 0 t120 0 t120 0 t120 0" fill="none" stroke="#7fb2d6" stroke-width="14" stroke-linecap="round"/>
+    <path d="M60 400 q60 -40 120 0 t120 0 t120 0 t120 0" fill="none" stroke="#9ad0e0" stroke-width="12" stroke-linecap="round" opacity="0.8"/>
+    <g fill="#e8765a">
+      <rect x="120" y="300" width="60" height="24" rx="6"/>
+      <rect x="120" y="262" width="60" height="24" rx="6"/>
+      <rect x="120" y="224" width="60" height="24" rx="6"/>
+    </g>
+    <g fill="#f0a85a">
+      <rect x="210" y="300" width="60" height="24" rx="6"/>
+      <rect x="210" y="262" width="60" height="24" rx="6"/>
+      <rect x="210" y="224" width="60" height="24" rx="6"/>
+    </g>
+    <g fill="#7fb2d6">
+      <rect x="300" y="300" width="60" height="24" rx="6"/>
+      <rect x="300" y="262" width="60" height="24" rx="6"/>
+      <rect x="300" y="224" width="60" height="24" rx="6"/>
+    </g>
+    <path d="M150 200 q40 -60 90 -10 q50 -50 90 10" fill="none" stroke="#f4d58a" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="150" cy="200" r="9" fill="#fff"/>
+    <circle cx="330" cy="200" r="9" fill="#fff"/>
+  </g>
+  <text x="256" y="466" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">동피랑</text>
+</svg>

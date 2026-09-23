@@ -1,13 +1,16 @@
 {
   "meta": {
-    "title": "Dongpirang Mural Village (동피랑 벽화마을) | Tongyeong, Gyeongsangnam-do · A Colorful Hillside Mural Village by the Sea",
+    "title": "Dongpirang Mural Village, Tongyeong — Travel Guide & Visitor Info",
     "description": "The complete guide to Dongpirang Mural Village (동피랑 벽화마을): a seaside art village in Tongyeong, Gyeongsangnam-do, Korea. Since 2008 a community painting project by residents and artists has turned an ageing fishing hillside into an open-air gallery of murals, stairs and corners. Opening hours, how to get there, accessibility, photo spots and visitor reviews — all in one place."
   },
   "header": {
     "siteName": "Dongpirang Mural Village",
     "home": "Home",
     "visit": "Visit",
+    "weather": "Weather",
     "transport": "Getting There",
+    "services": "Services",
+    "itinerary": "Itinerary",
     "lodging": "Stay",
     "history": "History",
     "gallery": "Gallery",
@@ -35,9 +38,12 @@
   },
   "stickyNav": {
     "facts": "Quick Facts",
+    "weather": "Weather",
     "etiquette": "Village Etiquette",
     "route": "Half-Day Route",
     "transport": "Getting There",
+    "services": "Services",
+    "itinerary": "Itinerary",
     "lodging": "Stay",
     "visit": "Visitor Tips",
     "faq": "FAQ"
@@ -841,6 +847,118 @@
       "For convenience and food: choose Gangguan/center, transit and dining at hand.",
       "Before booking, confirm breakfast, parking and EV chargers (key for drivers).",
       "In peak season and holidays plan ahead to avoid no-room or high prices."
+    ]
+  },
+  "sources": {
+    "title": "Sources & References",
+    "intro": "This guide compiles official, public information about Dongpirang Mural Village from the government tourism portals and regional authorities listed below. We are an independent, non-profit project affiliated with no organization; visitor figures such as the 4.0 / 7,775 rating are referenced from public Google Maps listings."
+  },
+  "weather": {
+    "title": "Live Weather & Best Time to Go",
+    "subtitle": "Coastal Tongyeong changes fast — check the current conditions and the 7-day outlook before you climb the stairs.",
+    "loading": "Loading live weather…",
+    "error": "Live weather is temporarily unavailable — please check again shortly.",
+    "now": "Right now",
+    "today": "Today",
+    "feelsLike": "Feels like",
+    "wind": "Wind",
+    "humidity": "Humidity",
+    "precip": "Rain chance",
+    "uv": "UV index",
+    "adviceTitle": "Suggestions for today",
+    "outfitTitle": "What to wear",
+    "planTitle": "How to plan your visit",
+    "itemsTitle": "What to bring",
+    "riskTitle": "Safety notice",
+    "forecastTitle": "7-day outlook",
+    "note": "Conditions reflect Tongyeong's coastal climate; always confirm before you travel.",
+    "wmoLabels": {
+      "clear": "Clear",
+      "partly": "Partly cloudy",
+      "cloudy": "Cloudy",
+      "fog": "Fog",
+      "drizzle": "Drizzle",
+      "rain": "Rain",
+      "snow": "Snow",
+      "thunder": "Thunderstorm"
+    },
+    "advice": {
+      "thunder": { "risk": "Thunderstorms in the area — don't climb the stairs, go in the sea, or shelter under trees.", "plan": "Harbor cruises and the cable car are likely suspended; head to indoor spots instead." },
+      "heavyRain": { "risk": "Heavy rain — stay away from gullies and low-lying spots on the slope.", "plan": "Outdoor wandering isn't advised; cruises and the cable car may stop running.", "items": "Wear a raincoat (skip the long umbrella — it's windy)." },
+      "lightRain": { "outfit": "Light rain makes the stone steps slippery — watch your footing.", "plan": "Open-air viewpoints will be less enjoyable; time your photos between showers.", "items": "Carry a compact folding umbrella." },
+      "rain60": { "plan": "High chance of rain — bring rain gear, prefer indoor stops, and delay the hill climb and harbor walk if you can.", "items": "Pack an umbrella or raincoat." },
+      "hot": { "outfit": "It's hot — wear light, breathable clothing and avoid the midday sun.", "plan": "Keep outdoor time short, especially around noon.", "items": "Bring sunscreen, plenty of water, and something for heat relief." },
+      "uv": { "outfit": "Strong UV by the sea — cover up and use protection.", "items": "Sunscreen, sunglasses, and a sun hat." },
+      "coldDiff": { "outfit": "Big day-night temperature swing — bring a layer you can add or remove." },
+      "cold": { "outfit": "Cold temperatures — dress warmly against the wind.", "items": "A thick jacket and a scarf." },
+      "wind56": { "plan": "Breezy — harbor cruises and some open-air rides may be paused.", "items": "Hats can blow away; skip the loose long skirt." },
+      "wind7": { "risk": "Strong wind — keep away from signs, railing edges, and seaside rocks.", "plan": "Open-water activities are likely cancelled." },
+      "fog": { "risk": "Poor visibility — ferries and flights may be delayed.", "plan": "Not a good time for sea or hill views; the murals are the draw instead.", "items": "A mask if the air is hazy." },
+      "clear": { "plan": "Clear and calm — great for the outdoor murals and sunrise/sunset over the sea.", "items": "Don't forget sun protection." },
+      "cloudy": { "plan": "Soft light is perfect for photos; no harsh sun, good for a long stroll." }
+    }
+  },
+  "facilities": {
+    "title": "Visitor Services & Nearby Facilities",
+    "subtitle": "What you'll actually find around the village — listed by type, not by brand. We are a non-profit guide and recommend categories, never specific businesses.",
+    "disclaimer": "Neutral guide: we describe facility TYPES and where they cluster (Gangguan harbor, the village foot, Tongyeong city), not individual shops or vendors.",
+    "categories": [
+      { "icon": "🚻", "title": "Restrooms", "text": "Public restrooms concentrate around Gangguan Harbor and the village foot; inside the alleys facilities are minimal. Use them before you start climbing.", "tip": "Plan a restroom stop at Gangguan before the uphill walk." },
+      { "icon": "🅿️", "title": "Parking & EV charging", "text": "There is no large dedicated lot in the village. Public and municipal lots sit around Gangguan and the harbor; some have EV chargers. They fill fast on weekends and holidays.", "tip": "Park near Gangguan and walk in; arrive early in peak season." },
+      { "icon": "🍜", "title": "Dining", "text": "The village itself has only a few small eateries. Most restaurants, cafés and seafood spots cluster at Gangguan, the Central Market and the waterfront.", "tip": "Eat at Gangguan or the market, then stroll up to the murals." },
+      { "icon": "🏪", "title": "Convenience & supermarkets", "text": "Convenience stores and small supermarkets are found along the roads near Gangguan and in the city center — handy for water, snacks and essentials.", "tip": "Buy water here; almost nothing is sold inside the alleys." },
+      { "icon": "🏨", "title": "Lodging", "text": "Stay options range from harbor-front guesthouses to city-center hotels and resort-style stays by the bay. None sit inside the village.", "tip": "See the Stay section for how to choose by location and convenience." },
+      { "icon": "⛽", "title": "Fuel & charging", "text": "Fuel stations and additional EV charging are available along the city approach roads and near the express bus terminal — refuel before reaching the narrow old town.", "tip": "Refuel on the city outskirts; the village roads are not for through-traffic." },
+      { "icon": "💧", "title": "Drinking water", "text": "Carry your own water — drinking fountains are scarce inside the painted alleys. Refill at Gangguan or convenience stores.", "tip": "A reusable bottle saves money and cuts waste." },
+      { "icon": "♿", "title": "Accessibility", "text": "The village is a steep hillside of stairs and lanes; step-free access is limited. Strollers and wheelchairs can reach the lower alleys from the gentle side.", "tip": "Enter from the low (Gangguan) side and keep to the wider lower paths." }
+    ]
+  },
+  "seasonalStrategy": {
+    "title": "Seasonal Travel Strategy",
+    "subtitle": "Tongyeong's coast has four clear seasons. Use this as a planning baseline — figures come from long-term climate normals, not today's forecast.",
+    "note": "Based on Tongyeong's long-term climate normals (Korea Meteorological Administration reference period). Actual weather varies year to year.",
+    "cols": ["Season", "Typical weather", "Best for", "Watch out"],
+    "rows": [
+      { "season": "Spring", "weather": "Mild, breezy, occasional yellow dust", "best": "Comfortable walking and clear harbor views", "watch": "Yellow dust days; pack a mask and light layers" },
+      { "season": "Summer", "weather": "Hot, humid, monsoon rains & typhoons", "best": "Early-morning light and sea breezes", "watch": "Afternoon thunderstorms, typhoon season (Jul–Sep)" },
+      { "season": "Autumn", "weather": "Clear, dry, the most stable skies", "best": "The prime season — photos, cruises, hiking", "watch": "Busy national holidays (Chuseok); book ahead" },
+      { "season": "Winter", "weather": "Cold, windy, occasional slope snow", "best": "Quiet alleys and crisp sea light", "watch": "Icy stairs after rain or snow; dress warmly" }
+    ]
+  },
+  "itineraries": {
+    "title": "Recommended Itineraries",
+    "subtitle": "Pick by who you are, then by how long you have. All routes link Dongpirang with Gangguan and the Tongyeong waterfront.",
+    "groupsTitle": "By traveller type",
+    "groups": [
+      { "icon": "👨‍👩‍👧", "title": "Families with kids", "text": "Keep the climb short and the rewards frequent — animals, fairy-tale corners and a sea breeze the children can feel.", "items": ["Start at Gangguan and take the gentle lower stairs", "Pause at the painted carp and fairy-tale walls", "Reward with ice cream or seafood at the harbor", "Skip the steep upper alleys with strollers"] },
+      { "icon": "📷", "title": "Photographers & nature", "text": "Chase the afternoon-to-dusk light when west-facing walls glow and the sea turns gold.", "items": ["Arrive about 60 minutes before sunset", "Shoot upper corners for murals plus harbor together", "Blue hour after sunset for the calm sea", "Combine with the Tongyeong Cable Car for height"] },
+      { "icon": "🌿", "title": "Low-effort / accessible", "text": "Enjoy the art without the steep climb — stay on the wider lower paths from the Gangguan side.", "items": ["Enter from the low (Gangguan) side", "Stay on the gentle lower alleys", "Rest at Gangguan viewpoints", "Let a shuttle or taxi cover the uphill part"] }
+    ],
+    "routesTitle": "Half-day / Full-day",
+    "routes": [
+      { "title": "Half-day (about 3–4 h)", "text": "The essentials: harbor, murals and sea.", "steps": [ { "n": "1", "t": "Arrive at Gangguan, use restrooms and snacks" }, { "n": "2", "t": "Climb the lower painted stairs (about 30–45 min)" }, { "n": "3", "t": "Photo the fairy-tale corners and harbor view" }, { "n": "4", "t": "Return to Gangguan for seafood and a cruise" } ] },
+      { "title": "Full-day (about 6–8 h)", "text": "Dongpirang plus Tongyeong's waterfront highlights.", "steps": [ { "n": "1", "t": "Morning at Gangguan and the Central Market" }, { "n": "2", "t": "Late-afternoon climb of Dongpirang for golden light" }, { "n": "3", "t": "Tongyeong Cable Car or a harbor cruise at dusk" }, { "n": "4", "t": "Dinner by the waterfront, then night views" } ] }
+    ]
+  },
+  "responsibility": {
+    "title": "Science & Visitor Responsibility",
+    "subtitle": "Dongpirang is a lived-in village, not a stage set. Small habits keep the art, the residents and the coast healthy.",
+    "points": [
+      { "icon": "🏘️", "title": "Respect residents", "text": "People live behind these walls. Keep voices low, don't enter private yards, and avoid blocking doorways while taking photos." },
+      { "icon": "🐚", "title": "Protect the coast & ecology", "text": "The murals frame a real fishing harbor and islands. Don't litter the shore, and leave plants and marine life undisturbed." },
+      { "icon": "🗑️", "title": "Zero waste", "text": "Carry out what you bring. Use the public bins at Gangguan; the narrow alleys have none." },
+      { "icon": "🧭", "title": "Stay on low-impact paths", "text": "The painted stairs and signed lanes are the intended route — wandering off-path erodes slopes and disturbs homes." },
+      { "icon": "⚠️", "title": "Stay safe on slopes", "text": "Stone stairs get slick after rain or fog. Wear grippy shoes, hold the railings, and keep children close near edges." }
+    ],
+    "footnote": "As a non-profit guide, we share practical, neutral information so every visitor can enjoy Dongpirang responsibly — we are not affiliated with any business."
+  },
+  "stories": {
+    "title": "Stories & Local Lore",
+    "subtitle": "Beyond the paint: the small narratives that make Dongpirang more than a photo stop.",
+    "items": [
+      { "icon": "🎨", "title": "The year the walls learned to smile (2008)", "text": "When the slope was quietly ageing and residents were leaving, a community art project invited painters to use the outer walls. Neighbors handed over their facades, and a 'soon-forgotten village' became a shared open-air gallery — proof that a town can redraw its own future." },
+      { "icon": "⚓", "title": "Gangguan, the harbor that raised it", "text": "Right below Dongpirang lies Gangguan, Tongyeong's old fishing harbor — once full of returning boats, squid lanterns and night markets. The village's charm is half painted walls, half the living sea you overlook from the top." },
+      { "icon": "🐟", "title": "The fairy-tale fish & the carp stair", "text": "Among the most loved motifs are carp, fish and fairy-tale characters climbing the steps. Locals say they were chosen because the sea has always fed this town — the art simply made that story visible on the stairs." }
     ]
   }
 }

@@ -17,7 +17,14 @@ import HiddenRules from '../../components/HiddenRules.astro';
 import Reviews from '../../components/Reviews.astro';
 import MapEmbed from '../../components/MapEmbed.astro';
 import DeepDive from '../../components/DeepDive.astro';
+import SourcesSection from '../../components/SourcesSection.astro';
 import FAQ from '../../components/FAQ.astro';
+import WeatherSection from '../../components/WeatherSection.astro';
+import Facilities from '../../components/Facilities.astro';
+import SeasonalStrategy from '../../components/SeasonalStrategy.astro';
+import Itineraries from '../../components/Itineraries.astro';
+import Responsibility from '../../components/Responsibility.astro';
+import Stories from '../../components/Stories.astro';
 import { getI18n, languagesList } from '../../i18n/ui';
 
 export function getStaticPaths() {
@@ -49,15 +56,22 @@ const faqLd = (() => {
   <SectionNav />
   <Hero />
   <QuickFactsDashboard />
+  <WeatherSection />
   <Intro />
   <HumanitiesDossier />
+  <Stories />
   <DeepDive />
   <Transport />
   <HigashiyamaRoute />
   <HiddenRules />
   <ComplianceGuide />
   <Lodging />
+  <Facilities />
   <MapEmbed />
+  <SeasonalStrategy />
+  <Itineraries />
+  <SourcesSection />
+  <Responsibility />
   <FAQ />
   <OutdoorMuseum />
   <Gallery />

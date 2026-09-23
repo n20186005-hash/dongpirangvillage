@@ -1,0 +1,26 @@
+{
+  "name": "Dongpirang Mural Village — Visitor Guide",
+  "short_name": "Dongpirang",
+  "description": "Independent, non-profit visitor guide to Dongpirang Mural Village in Tongyeong, Gyeongsangnam-do, Korea.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0f2015",
+  "theme_color": "#0f2015",
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

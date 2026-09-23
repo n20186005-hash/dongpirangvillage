@@ -3,7 +3,7 @@ import '../styles/global.css';
 import Header from '../components/Header.astro';
 import NoticeBanner from '../components/NoticeBanner.astro';
 import Footer from '../components/Footer.astro';
-import { getLangFromUrl, buildAlternates, htmlLangAttr, getI18n } from '../i18n/ui';
+import { getLangFromUrl, buildAlternates, htmlLangAttr, getI18n, languagesList } from '../i18n/ui';
 import { ogLocale, siteConfig } from '../config';
 
 interface Props {
@@ -22,7 +22,9 @@ const { messages } = getI18n(Astro.url);
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'TouristAttraction',
+  '@id': `${siteConfig.baseUrl}/#attraction`,
   name: messages.meta.title,
+  alternateName: ['Dongpirang', '동피랑 벽화마을', 'Tongyeong Dongpirang Mural Village'],
   description: messages.meta.description,
   url: canonical,
   image: 'https://dongpirangvillage.com/gallery/dongpirang-mural-village-1.jpg',
@@ -62,6 +64,7 @@ const jsonLd = {
     ratingValue: '4.0',
     reviewCount: '7767',
   },
+  hasMap: 'https://maps.app.goo.gl/LsderVJqMpJYF4PM8',
   sameAs: ['https://maps.app.goo.gl/LsderVJqMpJYF4PM8'],
 };
   const breadcrumbLd = (() => {
@@ -70,9 +73,9 @@ const jsonLd = {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: bc.home, item: `${siteConfig.baseUrl}/${lang}` },
-        { '@type': 'ListItem', position: 2, name: bc.region, item: `${siteConfig.baseUrl}/${lang}#overview` },
-        { '@type': 'ListItem', position: 3, name: bc.city, item: `${siteConfig.baseUrl}/${lang}#transport` },
+        { '@type': 'ListItem', position: 1, name: bc.home, item: `${siteConfig.baseUrl}/${lang}/` },
+        { '@type': 'ListItem', position: 2, name: bc.region, item: `${siteConfig.baseUrl}/${lang}/#overview` },
+        { '@type': 'ListItem', position: 3, name: bc.city, item: `${siteConfig.baseUrl}/${lang}/#transport` },
         { '@type': 'ListItem', position: 4, name: bc.current, item: canonical },
       ],
     };
@@ -107,8 +110,20 @@ const jsonLd = {
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
+    <meta property="og:image" content="https://dongpirangvillage.com/gallery/dongpirang-mural-village-1.jpg" />
+    <meta property="og:image:alt" content={messages.meta.title} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:locale" content={ogLocale[lang] ?? lang} />
+    {languagesList.filter((l) => l !== lang).map((l) => (
+      <meta property="og:locale:alternate" content={ogLocale[l] ?? l} />
+    ))}
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://dongpirangvillage.com/gallery/dongpirang-mural-village-1.jpg" />
+
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#0f2015" />
+    <link rel="apple-touch-icon" href="/icons/icon.svg" />
 
     <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXX" />
     <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossorigin="anonymous"></script>
@@ -136,5 +151,13 @@ const jsonLd = {
       <slot />
     </main>
     <Footer />
+
+    <script is:inline>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('/sw.js').catch(function () {});
+        });
+      }
+    </script>
   </body>
 </html>

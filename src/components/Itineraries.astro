@@ -1,0 +1,49 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const it = messages.itineraries;
+const groups = it.groups ?? [];
+const routes = it.routes ?? [];
+---
+
+<section id="itinerary" class="section-padding" style="background: var(--bg-secondary);">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center mb-10">
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">{it.title}</h2>
+      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{it.subtitle}</p>
+    </div>
+
+    <h3 class="font-semibold text-xl mb-5 text-center" style="color: var(--text-primary);">{it.groupsTitle}</h3>
+    <div class="grid lg:grid-cols-3 gap-5 mb-12">
+      {groups.map((g) => (
+        <article class="rounded-2xl p-6 border h-full flex flex-col" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="w-11 h-11 rounded-xl flex items-center justify-center text-xl" style="background: color-mix(in srgb, var(--accent) 14%, transparent);" aria-hidden="true">{g.icon}</span>
+            <h4 class="font-semibold text-lg" style="color: var(--text-primary);">{g.title}</h4>
+          </div>
+          <p class="text-sm leading-relaxed mb-4" style="color: var(--text-secondary);">{g.text}</p>
+          <ul class="space-y-2 text-sm mt-auto" style="color: var(--text-secondary);">
+            {g.items.map((item) => (
+              <li class="flex gap-3"><span style="color: var(--accent);">✦</span><span>{item}</span></li>
+            ))}
+          </ul>
+        </article>
+      ))}
+    </div>
+
+    <h3 class="font-semibold text-xl mb-5 text-center" style="color: var(--text-primary);">{it.routesTitle}</h3>
+    <div class="grid lg:grid-cols-2 gap-5">
+      {routes.map((r) => (
+        <article class="rounded-2xl p-6 md:p-8 border" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+          <h4 class="font-display text-lg font-semibold mb-3" style="color: var(--text-primary);">{r.title}</h4>
+          <p class="text-sm leading-relaxed mb-4" style="color: var(--text-secondary);">{r.text}</p>
+          <ol class="space-y-2 text-sm" style="color: var(--text-secondary); counter-reset: step;">
+            {r.steps.map((step) => (
+              <li class="flex gap-3"><span class="shrink-0 w-5 h-5 rounded-full flex items-center justify-center text-xs font-semibold" style="background: var(--accent); color: #fff;">{step.n}</span><span>{step.t}</span></li>
+            ))}
+          </ol>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
