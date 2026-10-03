@@ -10,9 +10,10 @@ interface Props {
   title: string;
   description: string;
   path?: string;
+  noindex?: boolean;
 }
 
-const { title, description, path = '' } = Astro.props;
+const { title, description, path = '', noindex = false } = Astro.props;
 const lang = getLangFromUrl(Astro.url);
 const htmlLang = htmlLangAttr(lang);
 const alts = buildAlternates(path);
@@ -99,6 +100,7 @@ const jsonLd = {
 
     <title>{title}</title>
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex,follow" />}
     <link rel="canonical" href={canonical} />
     <link rel="alternate" hreflang="zh" href={alts.zh} />
     <link rel="alternate" hreflang="en" href={alts.en} />

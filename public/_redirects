@@ -1,2 +1,31 @@
+# www -> non-www (domain-level)
 https://www.dongpirangvillage.com/* https://dongpirangvillage.com/:splat 301
+
+# Root -> Korean homepage (default locale)
 / /ko/ 301
+
+# Collapse trailing-slash duplicates: /ko -> /ko/, /en -> /en/, etc.
+/ko /ko/ 301
+/en /en/ 301
+/ja /ja/ 301
+/zh /zh/ 301
+
+# Tongyeong guide subpage
+/ko/tongyeong-attractions /ko/tongyeong-attractions/ 301
+/en/tongyeong-attractions /en/tongyeong-attractions/ 301
+/ja/tongyeong-attractions /ja/tongyeong-attractions/ 301
+/zh/tongyeong-attractions /zh/tongyeong-attractions/ 301
+
+# Legal pages (also reachable without trailing slash)
+/ko/privacy-policy /ko/privacy-policy/ 301
+/en/privacy-policy /en/privacy-policy/ 301
+/ja/privacy-policy /ja/privacy-policy/ 301
+/zh/privacy-policy /zh/privacy-policy/ 301
+/ko/terms-of-service /ko/terms-of-service/ 301
+/en/terms-of-service /en/terms-of-service/ 301
+/ja/terms-of-service /ja/terms-of-service/ 301
+/zh/terms-of-service /zh/terms-of-service/ 301
+/ko/cookie-settings /ko/cookie-settings/ 301
+/en/cookie-settings /en/cookie-settings/ 301
+/ja/cookie-settings /ja/cookie-settings/ 301
+/zh/cookie-settings /zh/cookie-settings/ 301
