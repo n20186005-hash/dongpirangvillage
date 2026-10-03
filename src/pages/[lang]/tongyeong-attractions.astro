@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TongyeongGuide from '../../components/TongyeongGuide.astro';
+import { getI18n, languagesList } from '../../i18n/ui';
+import { tongyeongContent } from '../../data/tongyeong';
+import { siteConfig } from '../../config';
+
+export function getStaticPaths() {
+  return languagesList.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = getI18n(Astro.url);
+const content = tongyeongContent[lang];
+
+const canonical = `https://dongpirangvillage.com/${lang}/tongyeong-attractions/`;
+
+const faqLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: content.faq.map((item) => ({
+    '@type': 'Question',
+    name: item.q,
+    acceptedAnswer: { '@type': 'Answer', text: item.a },
+  })),
+};
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `https://dongpirangvillage.com/${lang}/` },
+    { '@type': 'ListItem', position: 2, name: content.h1, item: canonical },
+  ],
+};
+
+const webPageLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: content.title,
+  description: content.subtitle,
+  url: canonical,
+  inLanguage: lang,
+  isPartOf: { '@type': 'WebSite', name: siteConfig.name, url: `https://dongpirangvillage.com/${lang}/` },
+};
+---
+
+<BaseLayout title={content.title} description={content.subtitle} path="tongyeong-attractions">
+  <script slot="head" type="application/ld+json" is:inline set:html={JSON.stringify(webPageLd)}></script>
+  <script slot="head" type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)}></script>
+  <script slot="head" type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)}></script>
+  <TongyeongGuide lang={lang} content={content} />
+</BaseLayout>

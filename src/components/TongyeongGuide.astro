@@ -1,0 +1,61 @@
+---
+import type { TongyeongContent } from '../data/tongyeong';
+
+interface Props {
+  lang: string;
+  content: TongyeongContent;
+}
+const { lang, content } = Astro.props;
+const homeHref = `/${lang}/`;
+---
+
+<section class="section-padding" style="background: var(--bg-secondary);">
+  <div class="max-w-4xl mx-auto px-4">
+    <a href={homeHref} class="text-sm hover:opacity-70" style="color: var(--accent);">&larr; {content.ctaLabel.replace(' →', '')}</a>
+    <h1 class="font-display text-3xl sm:text-4xl lg:text-5xl font-semibold mt-3 mb-3" style="color: var(--text-primary);">{content.h1}</h1>
+    <p class="text-base sm:text-lg leading-relaxed mb-8" style="color: var(--text-secondary);">{content.subtitle}</p>
+
+    <p class="text-base leading-relaxed mb-10" style="color: var(--text-secondary);">{content.intro}</p>
+
+    <h2 class="font-display text-2xl sm:text-3xl font-semibold mb-6" style="color: var(--text-primary);">{content.listTitle}</h2>
+    <ol class="space-y-5">
+      {content.attractions.map((a, i) => (
+        <li class="rounded-2xl p-5 border flex gap-4" style="background: var(--card-bg); border-color: var(--border-color);">
+          <span class="font-display text-2xl font-bold shrink-0" style="color: var(--accent);">{i + 1}</span>
+          <div class="min-w-0">
+            {a.url ? (
+              a.external ? (
+                <a href={a.url} target="_blank" rel="noopener noreferrer" class="font-semibold text-lg hover:opacity-70" style="color: var(--text-primary);">{a.name} ↗</a>
+              ) : (
+                <a href={a.url} class="font-semibold text-lg hover:opacity-70" style="color: var(--text-primary);">{a.name}</a>
+              )
+            ) : (
+              <span class="font-semibold text-lg" style="color: var(--text-primary);">{a.name}</span>
+            )}
+            <p class="text-sm sm:text-base mt-1 leading-relaxed" style="color: var(--text-secondary);">{a.blurb}</p>
+          </div>
+        </li>
+      ))}
+    </ol>
+
+    <h2 class="font-display text-2xl sm:text-3xl font-semibold mt-12 mb-4" style="color: var(--text-primary);">{content.islandsTitle}</h2>
+    <p class="text-base leading-relaxed mb-3" style="color: var(--text-secondary);">{content.islands.join(' · ')}</p>
+    <p class="text-sm leading-relaxed" style="color: var(--text-muted);">{content.islandsNote}</p>
+
+    <h2 class="font-display text-2xl sm:text-3xl font-semibold mt-12 mb-6" style="color: var(--text-primary);">{content.faqTitle}</h2>
+    <div class="space-y-5">
+      {content.faq.map((item) => (
+        <div class="rounded-2xl p-5 border" style="background: var(--card-bg); border-color: var(--border-color);">
+          <h3 class="font-semibold text-lg mb-2" style="color: var(--text-primary);">{item.q}</h3>
+          <p class="text-sm sm:text-base leading-relaxed" style="color: var(--text-secondary);">{item.a}</p>
+        </div>
+      ))}
+    </div>
+
+    <div class="mt-12 rounded-2xl p-6 border text-center" style="background: var(--card-bg); border-color: var(--border-color);">
+      <h2 class="font-display text-xl sm:text-2xl font-semibold mb-2" style="color: var(--text-primary);">{content.ctaTitle}</h2>
+      <p class="text-sm sm:text-base leading-relaxed mb-4" style="color: var(--text-secondary);">{content.ctaText}</p>
+      <a href={content.ctaUrl} class="inline-flex justify-center px-8 py-3 rounded-full font-semibold text-white" style="background: var(--accent);">{content.ctaLabel}</a>
+    </div>
+  </div>
+</section>
